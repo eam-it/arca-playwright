@@ -1,0 +1,22 @@
+{
+  "name": "n8n-puppeteer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "arca": "ts-node arca-login-and-download.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^24.0.14",
+    "dotenv": "^16.0.3",
+    "playwright": "^1.54.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.14"
+  }
+}
